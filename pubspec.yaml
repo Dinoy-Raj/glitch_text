@@ -1,6 +1,6 @@
 name: glitch_text
 description: Glitch Text - A Flutter package for creating Text widget with glitch effects & added support of  8+ glitch fonts
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/Dinoy-Raj/glitch_text
 
 environment:
@@ -41,7 +41,7 @@ flutter:
   fonts:
     - family: hacked
       fonts:
-        - asset: packages/glitch_text/lib/assets/fonts/hacked.ttf
+        - asset: packages/glitch_text/fonts/hacked.ttf
 
     - family: debug
       fonts:
