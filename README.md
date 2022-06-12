@@ -24,7 +24,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 
 ```yaml
 dependencies:
-  ...
+
   glitch_text: ^0.0.1
 ```
 
