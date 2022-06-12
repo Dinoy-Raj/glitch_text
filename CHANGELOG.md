@@ -30,3 +30,6 @@
 
 ## 0.1.1
  removed GlitchFonts
+
+## 0.1.2
+ added documentation
