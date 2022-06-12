@@ -28,17 +28,17 @@ import 'package:glitch_text';;
 import plugin and create GlichText function
 
 ```dart
-TextFun(
-                    data: "done",
-                    align: TextAlign.center,
-                    fontSize: 90,
-                    overflow: TextOverflow.ellipsis,
-                    font: GlitchFont.debug(),
-                    offset: 3,
-                    fontColor: Colors.black,
-                    wordSpacing: 1,
-                    letterSpacing: 1,
-                  ),
+  TextFun(
+      data: "done",
+      align: TextAlign.center,
+      fontSize: 90,
+      overflow: TextOverflow.ellipsis,
+      font: GlitchFont.debug(),
+      offset: 3,
+      fontColor: Colors.black,
+      wordSpacing: 1,
+      letterSpacing: 1,
+      ),
 ```
 
 ## Additional information
