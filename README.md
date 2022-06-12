@@ -8,18 +8,37 @@ A Flutter package for creating Text widget with glitch effects
 
 ## Getting Started
 
-In the `pubspec.yaml` of your flutter project, add the following dependency:
+### 1. Depend on it
+
+Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-
   glitch_text: ^0.0.1
 ```
 
-Import it:
+### 2. Install it
+
+You can install packages from the command line:
+
+with `pub`:
+
+```
+$ pub get
+```
+
+with `Flutter`:
+
+```
+$ flutter pub get
+```
+
+### 3. Import it
+
+Now in your `Dart` code, you can use:
 
 ```dart
-import 'package:glitch_text';;
+import 'package:glitch_text/glitch_text.dart';
 ```
 
 
