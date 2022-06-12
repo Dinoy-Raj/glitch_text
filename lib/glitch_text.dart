@@ -1,3 +1,3 @@
 library glitch_text;
-export '';
-
+export 'src/font.dart';
+export 'src/text.dart';

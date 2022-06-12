@@ -1,7 +1,7 @@
 name: glitch_text
 description: Glitch shadow text widget in flutter
 version: 0.0.1
-homepage:
+homepage: https://github.com/Dinoy-Raj/glitch_text
 
 environment:
   sdk: ">=2.17.3 <3.0.0"
@@ -59,7 +59,7 @@ flutter:
     - family: glitchbold
       fonts:
         - asset: assets/fonts/glitchbold.ttf
-          -
+
     - family: glitchinside
       fonts:
         - asset: assets/fonts/glitchinside.otf

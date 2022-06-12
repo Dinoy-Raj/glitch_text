@@ -1,46 +1,50 @@
 import 'package:flutter/material.dart';
+import 'package:glitch_text/src/font.dart';
 
 class TextFun extends StatelessWidget {
   final String? data;
-  final TextAlign align;
+  TextAlign? align = TextAlign.center;
   final TextOverflow overflow;
-  final String font;
+  String font = GlitchFont.hacked();
   final double fontSize;
-  final Color fontColor;
   final double offset;
-  const TextFun(
+  Color? fontColor = Colors.black;
+  double? wordSpacing = 1.0;
+  double? letterSpacing = 1.0;
+  TextFun(
       {Key? key,
       required this.data,
-      required,
-      required this.align,
+      this.align,
       required this.overflow,
       required this.font,
       required this.fontSize,
-      required this.fontColor,
-      required this.offset})
+      required this.offset,
+      this.fontColor,
+      this.wordSpacing,
+      this.letterSpacing})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      data!,
-      textAlign: align,
-      overflow: overflow,
-      style: TextStyle(
-        fontFamily: font,
-        fontSize: fontSize,
-        color: fontColor,
-        shadows: [
-          Shadow(
-            color: Colors.red,
-            offset: Offset(-offset, -offset),
-          ),
-          Shadow(
-            color: Colors.cyan,
-            offset: Offset(offset, offset),
-          ),
-        ],
-      ),
-    );
+    return Text(data!,
+        textAlign: align,
+        style: TextStyle(
+          color: fontColor,
+          fontFamily: font,
+          fontSize: fontSize,
+          wordSpacing: wordSpacing,
+          letterSpacing: letterSpacing,
+          overflow: overflow,
+          shadows: [
+            Shadow(
+              color: Colors.red,
+              offset: Offset(-offset, -offset),
+            ),
+            Shadow(
+              color: Colors.cyan,
+              offset: Offset(offset, offset),
+            ),
+          ],
+        ));
   }
 }
