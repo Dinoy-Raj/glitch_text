@@ -3,8 +3,7 @@ A Flutter package for creating Text widget with glitch effects
 
 ## Features
 * Customizable glitch width (offset)
-* 8+ verity fonts
-* Custimizable Font Properties
+* Custimizable Text Properties
 
 ## Getting Started
 
@@ -14,7 +13,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  glitch_text: ^0.0.1
+  glitch_text: ^0.1.1
 ```
 
 ### 2. Install it
@@ -52,7 +51,7 @@ import plugin and create GlichText function
     align: TextAlign.center,
     fontSize: 90,
     overflow: TextOverflow.ellipsis,
-    font: GlitchFont.debug(),
+    font: "lato",
     offset: 3,
     fontColor: Colors.black,
     wordSpacing: 1,
@@ -62,4 +61,7 @@ import plugin and create GlichText function
 
 ## Additional information
 
-If you have any feedback, please reach out to us at dinoykraj@gmail.com
+If you have any feedback, please reach out to us at 
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-22272E?style=flat-square&logo=Linkedin&logoColor=ADBAC7&bg_color=AARRGGBB&link=https://www.linkedin.com/in/dinoy-raj-k/)](https://www.linkedin.com/in/dinoy-raj-k/)
+[![Linkedin](https://img.shields.io/badge/-Gmail-22272E?style=flat-square&logo=Gmail&logoColor=ADBAC7&bg_color=AARRGGBB&link=dinoykraj@gmail.com)](mailto:dinoykraj@gmail.com)
+
