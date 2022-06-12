@@ -28,7 +28,7 @@ import 'package:glitch_text';;
 import plugin and create GlichText function
 
 ```dart
-const like = 'sample';
+TextFun(data: "done", fontSize: 90, overflow: TextOverflow.ellipsis, font: GlitchFont.debug(), offset: 3,),';
 ```
 
 ## Additional information
