@@ -41,17 +41,22 @@ class _MyHomePageState extends State<MyHomePage> {
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Container(
+              SizedBox(
                 height: screenHeight * .2,
                 width: screenWidth,
                 child: Row(
-                  children:  const [
-                   GlitchText(
+                  children: const [
+                    GlitchText(
+                      //text content : data
                       data: "Glitch Text",
                       overflow: TextOverflow.ellipsis,
+                      //font family from assets
                       font: "hacked",
                       fontSize: 90,
+                      //offset of shadow
                       offset: 3,
                       wordSpacing: 1,
                       fontColor: Colors.black,
