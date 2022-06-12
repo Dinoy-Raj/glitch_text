@@ -3,3 +3,6 @@
 
 ## 0.0.2 
   structural changes and bug fixes
+
+## 0.0.3
+ added example
