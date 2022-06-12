@@ -1,6 +1,6 @@
 name: glitch_text
-description: Glitch Text - Glitch shadow text widget package
-version: 0.0.1
+description: Glitch Text - A Flutter package for creating Text widget with glitch effects & added support of  8+ glitch fonts
+version: 0.0.2
 homepage: https://github.com/Dinoy-Raj/glitch_text
 
 environment:

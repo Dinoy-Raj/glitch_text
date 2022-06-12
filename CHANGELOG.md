@@ -1,3 +1,5 @@
 ## 0.0.1
+  first version 
 
-* TODO: Describe initial release.
+## 0.0.2 
+  structural changes and bug fixes
