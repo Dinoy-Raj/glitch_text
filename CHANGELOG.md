@@ -24,3 +24,9 @@
 
 ## 0.0.9
  updated dependencies
+
+## 0.1.0
+ removed asset font dependency
+
+## 0.1.1
+ removed GlitchFonts

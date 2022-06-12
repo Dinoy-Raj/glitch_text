@@ -50,37 +50,3 @@ class GlitchText extends StatelessWidget {
         ));
   }
 }
-
-class GlitchFont {
-  static String hacked() {
-    return "hacked";
-  }
-
-  static String debug() {
-    return "debug";
-  }
-
-  static String bugFast() {
-    return "bugfast";
-  }
-
-  static String daughterGlitch() {
-    return "daughterglitch";
-  }
-
-  static String glitchBold() {
-    return "glitchbold";
-  }
-
-  static String glitchInside() {
-    return "glitchinside";
-  }
-
-  static String sonGlitch() {
-    return "songlitch";
-  }
-
-  static String thoseGlitch() {
-    return "thoseglitch";
-  }
-}
