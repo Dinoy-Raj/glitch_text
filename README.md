@@ -47,7 +47,7 @@ import 'package:glitch_text/glitch_text.dart';
 import plugin and create GlichText function
 
 ```dart
-  TextFun(
+  GlitchText(
     data: "done",
     align: TextAlign.center,
     fontSize: 90,
