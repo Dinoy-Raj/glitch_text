@@ -1,19 +1,19 @@
 library glitch_text;
 
 import 'package:flutter/material.dart';
-import 'package:glitch_text/src/font.dart';
 
 class GlitchText extends StatelessWidget {
   final String? data;
-  TextAlign? align = TextAlign.center;
+  final TextAlign? align;
   final TextOverflow overflow;
-  String font = GlitchFont.hacked();
+  final String font;
   final double fontSize;
   final double offset;
-  Color? fontColor = Colors.black;
-  double? wordSpacing = 1.0;
-  double? letterSpacing = 1.0;
-  GlitchText(
+  final Color fontColor;
+  final double wordSpacing;
+  final double letterSpacing;
+
+  const GlitchText(
       {Key? key,
       required this.data,
       this.align,
@@ -21,9 +21,9 @@ class GlitchText extends StatelessWidget {
       required this.font,
       required this.fontSize,
       required this.offset,
-      this.fontColor,
-      this.wordSpacing,
-      this.letterSpacing})
+      required this.fontColor,
+      required this.wordSpacing,
+      required this.letterSpacing})
       : super(key: key);
 
   @override
@@ -48,5 +48,39 @@ class GlitchText extends StatelessWidget {
             ),
           ],
         ));
+  }
+}
+
+class GlitchFont {
+  static String hacked() {
+    return "hacked";
+  }
+
+  static String debug() {
+    return "debug";
+  }
+
+  static String bugFast() {
+    return "bugfast";
+  }
+
+  static String daughterGlitch() {
+    return "daughterglitch";
+  }
+
+  static String glitchBold() {
+    return "glitchbold";
+  }
+
+  static String glitchInside() {
+    return "glitchinside";
+  }
+
+  static String sonGlitch() {
+    return "songlitch";
+  }
+
+  static String thoseGlitch() {
+    return "thoseglitch";
   }
 }
