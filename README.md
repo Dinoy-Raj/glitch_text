@@ -1,10 +1,10 @@
 # Glitch Text
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package for creating Text widget with glitch effects 
 
 ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+* Customizable glitch width (offset)
+* 8+ verity fonts
+* Custimizable Font Properties
 
 ## Getting Started
 
@@ -25,8 +25,7 @@ import 'package:glitch_text';;
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+import plugin and create GlichText function
 
 ```dart
 const like = 'sample';
@@ -34,6 +33,4 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you have any feedback, please reach out to us at dinoykraj@gmail.com
