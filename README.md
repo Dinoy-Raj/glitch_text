@@ -59,7 +59,8 @@ import plugin and create GlichText function
    ),
 ```
 
-![glitch](https://user-images.githubusercontent.com/62199728/173249307-6be51871-27af-46d1-bb09-edbfabc0a8e1.png)
+
+<img src="https://user-images.githubusercontent.com/62199728/173249307-6be51871-27af-46d1-bb09-edbfabc0a8e1.png" width="1000">
 
 
 ## Additional information
