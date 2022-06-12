@@ -30,28 +30,33 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
   @override
   Widget build(BuildContext context) {
-
-    double screenHeight =  MediaQuery.of(context).size.height;
-    double screenWidth =  MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
-
       body: SizedBox(
-        height:screenHeight,
-        width:screenWidth,
+        height: screenHeight,
+        width: screenWidth,
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: Column(
             children: [
               Container(
-                height: screenHeight*.1,
+                height: screenHeight * .1,
                 width: screenWidth,
                 child: Row(
-                  children: [
-                    GlitchText(data: "Glitch Text", overflow: TextOverflow.ellipsis, font: "hacked", fontSize: 90, offset: 3)
+                  children:  [
+                   GlitchText(
+                      data: "Glitch Text",
+                      overflow: TextOverflow.ellipsis,
+                      font: GlitchFont.bugFast(),
+                      fontSize: 90,
+                      offset: 3,
+                      wordSpacing: 1,
+                      fontColor: Colors.black,
+                      letterSpacing: 1,
+                    )
                   ],
                 ),
               ),
@@ -59,7 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-
     );
   }
 }
