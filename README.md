@@ -59,7 +59,7 @@ import plugin and create GlichText function
    ),
 ```
 
-<img src="https://github.com/Dinoy-Raj/FlutterDExample/blob/main/glitch.png" width="1000">
+<img src="https://raw.githubusercontent.com/Dinoy-Raj/FlutterDExample/blob/main/glitch.png" width="1000">
 
 ## Additional information
 
