@@ -21,3 +21,6 @@
 
 ## 0.0.8
  added hacked font
+
+## 0.0.9
+ updated dependencies

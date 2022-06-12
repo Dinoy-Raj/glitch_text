@@ -43,14 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             children: [
               Container(
-                height: screenHeight * .1,
+                height: screenHeight * .2,
                 width: screenWidth,
                 child: Row(
-                  children:  [
+                  children:  const [
                    GlitchText(
                       data: "Glitch Text",
                       overflow: TextOverflow.ellipsis,
-                      font: GlitchFont.bugFast(),
+                      font: "hacked",
                       fontSize: 90,
                       offset: 3,
                       wordSpacing: 1,
